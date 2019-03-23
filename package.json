@@ -11,6 +11,9 @@
     "watch": "npm run build && ava -w",
     "start": "npm run watch"
   },
+  "dependencies": {
+    "@types/node": "7.0.14"
+  },
   "devDependencies": {
     "ava": "0.18.2",
     "connect-js-adapter-tls": "spotware/connect-js-adapter-tls#v3.0.3",
@@ -18,8 +21,5 @@
     "connect-protobuf-messages": "spotware/connect-protobuf-messages#v2.0.0",
     "nyc": "10.2.0",
     "typescript": "2.3.1"
-  },
-  "dependencies": {
-    "@types/node": "7.0.14"
   }
 }
