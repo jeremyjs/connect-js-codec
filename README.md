@@ -6,5 +6,8 @@ Join two codecs: frame buffer and protocol
 ## TODO
 * Fix encode bug (sometimes `message`, sometimes `data`)
 * Update dependency versions to latest stable (jeremyjs forks)
-* Migrate to TypeScript
+  * Tag new stable version of `jeremyjs/connect-protobuf-messages` (currently depending on a branch)
+* Migrate to TypeScript and share types
 * Add unit tests for all units and methods
+* Remove subscribe callback and merge logic into the decode method
+  * Discover if it's possible
