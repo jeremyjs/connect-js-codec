@@ -3,13 +3,16 @@
   "version": "1.0.4",
   "repository": {
     "type": "git",
-    "url": "git://github.com/spirinvladimir/connect-js-codec.git"
+    "url": "git://github.com/jeremyjs/connect-js-codec.git"
   },
   "scripts": {
     "build": "tsc index.ts",
     "test": "npm run build && nyc ava",
     "watch": "npm run build && ava -w",
     "start": "npm run watch"
+  },
+  "dependencies": {
+    "@types/node": "7.0.14"
   },
   "devDependencies": {
     "ava": "0.18.2",
@@ -18,8 +21,5 @@
     "connect-protobuf-messages": "spotware/connect-protobuf-messages#v2.0.0",
     "nyc": "10.2.0",
     "typescript": "2.3.1"
-  },
-  "dependencies": {
-    "@types/node": "7.0.14"
   }
 }
